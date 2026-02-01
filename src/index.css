@@ -25,6 +25,29 @@ footer {
   padding-bottom: 24px;
 }
 
+/* Layout helpers for Pokemon page */
+.pokemon-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px 20px 48px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon-header {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* center the search box */
+  align-items: center;
+}
+
+/* Make search input responsive when centered */
+input[type="text"] {
+  width: 320px;
+  max-width: 90%;
+}
+
 input[type="text"] {
   padding: 10px 16px;
   border-radius: 8px;
@@ -74,7 +97,7 @@ input[type="text"]:focus {
   cursor: pointer;
   border: 3px solid #7ec6f7;
   position: relative;
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 
