@@ -64,7 +64,7 @@ input[type="text"]:focus {
   background: linear-gradient(135deg, #f5f7fa 0%, #e0c3fc 100%);
   border-radius: 28px;
   box-shadow: 0 8px 32px rgba(80, 80, 180, 0.18);
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: transform 0.22s, box-shadow 0.22s, border-color 0.22s;
   width: 100%;
   min-height: 480px;
